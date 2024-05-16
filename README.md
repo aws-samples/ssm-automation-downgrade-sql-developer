@@ -8,7 +8,11 @@ Be sure to:
 * Change the title in this README
 * Edit your repository description on GitHub
 
-## Security
+## Overview
+This simple solution uses a combination of [AWS CloudFormation](https://aws.amazon.com/cloudformation/) and [Automation](https://docs.aws.amazon.com/systems-manager/latest/userguide/systems-manager-automation.html), a capability of [AWS Systems Manager (SSM)](https://aws.amazon.com/systems-manager/), to automatically deploy a duplicate of your non-production database(s) on SQL Server Developer edition. The solution runs a series of PowerShell scripts that are delivered via a SSM [Run Command](https://console.aws.amazon.com/systems-manager/run-command/) to downgrade to SQL Server Developer edition. The automation creates an Amazon Machine Image (AMI) of the existing Amazon EC2 instance and runs the scripts on a new Amazon EC2 instance launched from that AMI as shown in the solution architecture diagram:
+
+
+
 
 See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
 
