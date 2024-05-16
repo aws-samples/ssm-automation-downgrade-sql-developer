@@ -14,6 +14,9 @@ This simple solution uses a combination of [AWS CloudFormation](https://aws.amaz
 
 ![Solution_architecture](https://github.com/aws-samples/ssm-automation-downgrade-sql-developer/blob/main/ssm-automation-downgrade-sql-developer.png)
 
+
+## Security
+
 See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
 
 ## License
