@@ -22,6 +22,10 @@ The automation performs the following actions:
    - Converts the license type (if applicable) 
    - Stops the new Amazon EC2 instance (if specified)
     
+## Supported configurations
+The automation supports the following configurations for source and target SQL Server editions. The source is always SQL Server Standard or Enterprise edition. The target is always SQL Server Developer edition.
+
+![Supported_configurations](https://github.com/aws-samples/ssm-automation-downgrade-sql-developer/blob/main/SupportedConfigTable.PNG)
 
 ## Security
 
