@@ -1,6 +1,7 @@
-## My Project
+## How to automate downgrading SQL Server to Developer edition on Amazon EC2
 
-TODO: Fill this README out!
+This repo hosts AWS Cloudformation template for AWS blog post: How to automate downgrading SQL Server to Developer edition on Amazon EC2 published on the [Microsoft Workloads on AWS](https://aws.amazon.com/blogs/modernizing-with-aws/) blog channel. 
+we will show you how to automate the process of downgrading from Microsoft SQL Server Enterprise or Standard edition to SQL Server Developer edition to save cost.
 
 Be sure to:
 
