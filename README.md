@@ -15,16 +15,13 @@ The automation performs the following actions:
 2.	Launch a new Amazon EC2 instance from that AMI.
 3.	Retrieve the SQL Server credentials from AWS Secrets Manager .
 4.	Run the downgrade operation, which:
-  *  Detaches all databases on the original SQL Server instance
-  *  Uninstalls the SQL Server Enterprise or Standard edition
-  *  Installs SQL Server Developer edition.
-  *  Reattaches the databases to the new SQL Server instance running SQL Server Developer edition
-  *  Converts the license type (if applicable) 
-  *  Stops the new Amazon EC2 instance (if specified)
-
-
-## Supported configurations
-
+   *  Detaches all databases on the original SQL Server instance
+   *  Uninstalls the SQL Server Enterprise or Standard edition
+   *  Installs SQL Server Developer edition.
+   *  Reattaches the databases to the new SQL Server instance running SQL Server Developer edition
+   *  Converts the license type (if applicable) 
+   *  Stops the new Amazon EC2 instance (if specified)
+    
 
 ## Security
 
