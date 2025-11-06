@@ -1057,7 +1057,7 @@ Resources:
                   #After Installing SQL, disable auto-logon
                   $RegPath = "HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon"
                   $property = (Get-ItemProperty -Path $RegPath).AutoAdminLogon
-                  Set-ItemProperty -Path $RegPath -Name "AutoAdminLogon" -Value "1" -type String
+                  Set-ItemProperty -Path $RegPath -Name "AutoAdminLogon" -Value "0" -type String
                   Set-ItemProperty -Path $RegPath -Name "DefaultUsername" -Value "$LocalAdministrator" -type String
                   Set-ItemProperty -Path $RegPath -Name "DefaultPassword" -Value "$Password" -type String
 
